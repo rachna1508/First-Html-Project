@@ -1,0 +1,93 @@
+
+ body{
+  margin:1px;
+  padding:1px;
+ }
+
+ .container{
+	margin:50px 30px;
+    padding: 30px;
+}
+
+.navbar {
+  font-size: larger;
+   overflow: hidden;
+   background-color: #00008B;
+   color: white;
+   position: fixed;
+   top: 0;
+   z-index: 10000;
+   width: 100%;
+}
+
+.navbar a {
+ float: left;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 21px;
+ color: white;
+}
+
+.navbar a:hover {
+ background-color:white;
+ color:#00008B;
+}
+
+.navbar a.active {
+ background-color: rgb(200, 224, 243);
+ color: #00008B;
+
+}
+
+.navbar-right {
+  float: right;
+}
+
+
+#fname,#mobile,#email{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #00008B;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+#submit{
+  color: rgb(200, 224, 243);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float:right;
+}
+
+.cont-part{
+  text-align: right;
+}
+
+.container{
+  width:auto;
+  font-family: 'Times New Roman', Times, serif;
+  align-content:center;
+  padding:20px 40px 20px 20px;
+  border: 5px solid;
+  border-color:#00008B;
+}
+
+.footer{
+  padding: 20px 0px 20px 0px;
+  background-color: #00008B;
+  color: seashell;
+  text-align: center;
+}
+
+h3{
+  font-size: 30px;
+  color: #00008B;
+}
+
+
